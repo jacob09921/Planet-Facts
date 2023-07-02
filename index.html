@@ -19,14 +19,17 @@
                 <h4>THE PLANETS</h2>
             </div>
             <ul>
-                <li>MERCURY</li>
-                <li>VENUS</li>
-                <li>EARTH</li>
-                <li>MARS</li>
-                <li>JUPITER</li>
-                <li>SATURN</li>
-                <li>URANUS</li>
-                <li>NEPTUNE</li>
+                <li id="hamburger"> <img
+                        src="https://o.remove.bg/downloads/64606b45-b87c-4e35-bd57-6412a076fcb3/images-removebg-preview.png"
+                        alt="Hamburger"></li>
+                <li class="hide">MERCURY</li>
+                <li class="hide">VENUS</li>
+                <li class="hide">EARTH</li>
+                <li class="hide">MARS</li>
+                <li class="hide">JUPITER</li>
+                <li class="hide">SATURN</li>
+                <li class="hide">URANUS</li>
+                <li class="hide">NEPTUNE</li>
             </ul>
         </nav>
     </header>
@@ -34,12 +37,14 @@
     <div id="information">
         <div class="planet">
             <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Earth_Western_Hemisphere_transparent_background.png"
-                alt="">
+                alt="Earth">
         </div>
         <div class="info">
             <h1>EARTH</h1>
-            <p>Earth is the third planet from the Sun and the only place known in the universe where life has originated
-                and found habitability. Earth is the only planet known to sustain liquid surface water, with ocean water
+            <p>Earth is the third planet from the Sun and the only place known in the universe where life
+                has originated
+                and found habitability. Earth is the only planet known to sustain liquid surface water, with
+                ocean water
                 extending over 70.8% of the planet, making it an ocean world.</p>
             <p>Source: <a href="https://en.wikipedia.org/wiki/Earth" id="wiki">Wikipedia</a></p>
         </div>
@@ -69,26 +74,7 @@
 
 
     <script src="app.js"></script>
-    <script async src=" https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
-        crossorigin="anonymous"></script>
-    <script type="importmap">
-{
-"imports": {
-"@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/esm/popper.min.js",
-"bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.esm.min.js"
-}
-}
-</script>
-    <script type="module">
-        import * as bootstrap from 'bootstrap'
-    </script>
 
-
-    <script>
-        $(window).scroll(function () {
-            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
-        });
-    </script>
 </body>
 
 </html>
