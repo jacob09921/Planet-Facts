@@ -17,7 +17,7 @@ btn.addEventListener('click', show)
 for (let li of list) {
     if (li.innerHTML === 'MERCURY') {
         li.addEventListener('click', () => {
-            showInfo('Pictures/Mercury.PNG',
+            showInfo('Pictures/Mercury.png',
                 'MERCURY', "Mercury is the first planet from the Sun and the smallest planet in the Solar System. It is a terrestrial planet with a heavily cratered surface due to the planet having no geological activity and an extremely tenuous atmosphere (called an exosphere).",
                 'https://en.wikipedia.org/wiki/Mercury_(planet)', '58.6 DAYS', '88 DAYS', ' 2,440 KM', '167°C')
         })
@@ -32,7 +32,7 @@ for (let li of list) {
 
     else if (li.innerHTML === 'VENUS')
         li.addEventListener('click', () => {
-            showInfo('Pictures/Venus.PNG',
+            showInfo('Pictures/Venus.png',
                 'VENUS', "Venus is the second planet from the Sun. It is a rocky planet with the densest atmosphere of all the rocky bodies in the Solar System, and the only one with a mass and size that is close to that of its orbital neighbour Earth.",
                 'https://en.wikipedia.org/wiki/Venus', '243 DAYS', '225 DAYS', ' 6,051.8  KM', '462°C')
         })
@@ -47,7 +47,7 @@ for (let li of list) {
 
     else if (li.innerHTML === 'JUPITER')
         li.addEventListener('click', () => {
-            showInfo('Pictures/Jupiter.PNG',
+            showInfo('Pictures/Jupiter.png',
                 'JUPITER', "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, and slightly less than one one-thousandth the mass of the Sun.",
                 'https://en.wikipedia.org/wiki/Jupiter', '0.10 DAYS', '12 YEARS', '69,911 KM', '-110°C')
 
@@ -55,7 +55,7 @@ for (let li of list) {
 
     else if (li.innerHTML === 'SATURN')
         li.addEventListener('click', () => {
-            showInfo('Pictures/Saturn.PNG',
+            showInfo('Pictures/Saturn.png',
                 'SATURN', "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.",
                 'https://en.wikipedia.org/wiki/Saturn', '0.10 DAYS', '30 YEARS', '58,232 KM', '-140°C')
 
@@ -63,7 +63,7 @@ for (let li of list) {
 
     else if (li.innerHTML === 'URANUS')
         li.addEventListener('click', () => {
-            showInfo('Pictures/Uranus.PNG',
+            showInfo('Pictures/Uranus.png',
                 'URANUS', "Uranus is the seventh planet from the Sun and is a gaseous cyan ice giant. Most of the planet is made out of water, ammonia, and methane in a supercritical phase of matter, which in astronomy is called 'ice' or volatiles.",
                 'https://en.wikipedia.org/wiki/Uranus', '0.17 DAYS', '84 YEARS', '25,362 KM', '-195°C')
 
@@ -71,7 +71,7 @@ for (let li of list) {
 
     else if (li.innerHTML === 'NEPTUNE')
         li.addEventListener('click', () => {
-            showInfo('Pictures/Neptune.PNG',
+            showInfo('Pictures/Neptune.png',
                 'NEPTUNE', "Neptune is the eighth planet from the Sun and the farthest known planet in the Solar System. It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth.",
                 'https://en.wikipedia.org/wiki/Neptune', '0.16 DAYS', '165 YEARS', '24,622 KM', '-200°C')
 
