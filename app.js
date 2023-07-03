@@ -39,7 +39,7 @@ for (let li of list) {
 
     else if (li.innerHTML === 'MARS')
         li.addEventListener('click', () => {
-            showInfo('Pictures/Mars.PNG',
+            showInfo('Pictures/Mars.png',
                 'MARS', "Mars is the fourth planet and the furthest terrestrial planet from the Sun. The reddish color of its surface is due to finely grained iron(III) oxide dust in the soil, giving it the nickname; the Red Planet.",
                 'https://en.wikipedia.org/wiki/Mars', '1.03 DAYS', '687 DAYS', ' 3,389.5 KM', '-65°C')
 
